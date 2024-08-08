@@ -1,3 +1,6 @@
 [build]
-  command = "npm run build"  # Ensure this command generates the 'build' directory
-  publish = "build"
+  command = "npm run build"  # The command to generate the build artifacts
+  publish = "/opt/build/repo/dist"  # Specify the correct publish directory
+
+[build.environment]
+  NODE_ENV = "production"
