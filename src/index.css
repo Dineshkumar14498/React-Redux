@@ -68,7 +68,8 @@ img {
 }
 .InDe {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
   margin-bottom: 10px;
 }
 .text {
@@ -84,7 +85,11 @@ img {
 .increament {
   border: none;
   border-radius: 50%;
+  padding-right: 20%;
+  
+
 }
+.decre
 
 .fixed-header {
   position: sticky;

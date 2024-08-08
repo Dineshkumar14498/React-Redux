@@ -68,16 +68,11 @@ const Cart = () => {
             </Card.Text>
             <div className="InDe">
               <div className="price-total">
-                <Card.Text className="card-text">
-                    price:<i class="fa fa-inr"></i>{" "}
-                  {product.price * productCount[product.id] || product.price}
-                </Card.Text>
-              </div>
-              <div className="price-total">
                 <Button
                   variant="primary"
                   className="increament"
                   style={{ borderRadius: "50%" }}
+
                   onClick={() => decreaseCount(product.id)}
                 >
                   -
