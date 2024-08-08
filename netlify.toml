@@ -1,3 +1,6 @@
 [build]
   command = "npm run build"  # Ensure this command generates the 'build' directory
-  publish = "build"
+  commandOrigin = "config"
+  publish = "/opt/build/repo/build"
+  publishOrigin = "config"
+
