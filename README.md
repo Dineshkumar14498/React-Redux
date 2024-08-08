@@ -10,7 +10,7 @@ DIGITIAL SHOPPING CART WEBSITE
 
 - **Responsive Design:** The website is responsive, ensuring a good user experience on different devices.
 
-- **Navigation:** Easily switch between the product listing and the shopping cart using the navigation menu.
+- **Navigation:** Easily switch between the product listing and the shopping cart using the navigation menu
 
 ## Technologies Used
 
