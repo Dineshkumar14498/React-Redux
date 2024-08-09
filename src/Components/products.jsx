@@ -28,7 +28,7 @@ const Products = () => {
 
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("/products.json")
+    fetch("/mocks/products.json")
       .then((response) => response.json())
       .then((result) => setProducts(result.products))
       .catch((e) => console.log(e));
